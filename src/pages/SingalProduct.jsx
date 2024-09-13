@@ -27,10 +27,10 @@ const SingalProduct = () => {
                 bis_skin_checked={1}
               >
                 <h2 className="text-sm title-font text-gray-500 tracking-widest">
-                  {singalProduct.title}
+                  {singalProduct.category}
                 </h2>
                 <h1 className="text-gray-900 text-3xl title-font font-medium mb-4">
-                  {singalProduct.category}
+                  {singalProduct.title}
                 </h1>
                 <div className="flex mb-4" bis_skin_checked={1}>
                   <a className="flex-grow text-indigo-500 border-b-2 border-indigo-500 py-2 text-lg px-1">
