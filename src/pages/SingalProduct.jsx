@@ -44,32 +44,32 @@ const SingalProduct = () => {
                   </a>
                 </div>
                 <p className="leading-relaxed mb-4">
-                 {singalProduct.description}
+                  {singalProduct.description}
                 </p>
                 <div
                   className="flex border-t border-gray-200 py-2"
                   bis_skin_checked={1}
                 >
-                  <span className="text-gray-500">Color</span>
-                  <span className="ml-auto text-gray-900">Blue</span>
+                  <span className="text-gray-500">Rating</span>
+                  <span className="ml-auto text-gray-900">{singalProduct.rating}</span>
                 </div>
                 <div
                   className="flex border-t border-gray-200 py-2"
                   bis_skin_checked={1}
                 >
-                  <span className="text-gray-500">Size</span>
-                  <span className="ml-auto text-gray-900">Medium</span>
+                  <span className="text-gray-500">weight</span>
+                  <span className="ml-auto text-gray-900">{singalProduct.weight}</span>
                 </div>
                 <div
                   className="flex border-t border-b mb-6 border-gray-200 py-2"
                   bis_skin_checked={1}
                 >
                   <span className="text-gray-500">Quantity</span>
-                  <span className="ml-auto text-gray-900">4</span>
+                  <span className="ml-auto text-gray-900">1</span>
                 </div>
                 <div className="flex" bis_skin_checked={1}>
                   <span className="title-font font-medium text-2xl text-gray-900">
-                    $58.00
+                    ${singalProduct.price}
                   </span>
                   <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
                     Button
